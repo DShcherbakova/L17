@@ -1,5 +1,6 @@
-import l17.ArrayList;
-import l17.transport.Car;
+package l17;
+
+import l17.transport.*;
 
 public class L17Main {
     public static void main(String[] args) {
@@ -7,12 +8,15 @@ public class L17Main {
         Car porsche = new Car("Porsche", 2);
         Car lamborghini = new Car("Lamborghini", 3);
         Car ford = new Car("Ford", 3);
+        Car ferrari = new Car("Ferrari", 3);
 
-        ArrayList cars = new ArrayList();
-        cars.add(bmw);
-        cars.add(porsche);
-        cars.add(lamborghini);
-        cars.add(ford);
-        System.out.println(cars);
+        MyArrayList carShowroom = new MyArrayList();
+
+        carShowroom.add(bmw);
+        carShowroom.add(porsche);
+        carShowroom.add(lamborghini);
+        carShowroom.add(ford);
+        carShowroom.add(ferrari);
+        System.out.println(carShowroom);
     }
 }

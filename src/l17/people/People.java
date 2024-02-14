@@ -1,11 +1,11 @@
 package l17.people;
 
-public class Human {
+public class People {
     String name;
     String gender;
     public int age;
 
-    public Human(String name, String gender, int age){
+    public People(String name, String gender, int age){
         this.gender = gender;
         this.name = name;
         this.age = age;
